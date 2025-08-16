@@ -81,6 +81,8 @@ export const Navbar = () => {
 
       <div className="flex lg:hidden items-center justify-center">
         <Button variant={'ghost'} className="size-12 border-transparent bg-white"
+          title="Open menu"
+          aria-label="Open menu"
           onClick={() => setIsSidebarOpen(true)}>
             <MenuIcon />
         </Button>
